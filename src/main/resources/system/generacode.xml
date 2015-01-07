@@ -43,6 +43,8 @@
 		</javaClientGenerator>
 
 
+		<table tableName="t_user" domainObjectName="User" alias="temp_user"/>
+		<table tableName="t_user_role" domainObjectName="UserRole" alias="temp_user_role"/>
 		<table tableName="t_dep" domainObjectName="Dep" alias="temp_dep"/>
 		<table tableName="t_dep_role" domainObjectName="DepRole" alias="temp_dep_role"/>
 		
