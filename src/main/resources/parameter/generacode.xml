@@ -43,7 +43,32 @@
 		</javaClientGenerator>
 
 
-		<table tableName="t_user" domainObjectName="User" alias="temp_user"/>
+		<table tableName="t_par_client_level" domainObjectName="ParClientLevel" alias="temp_par_client_level"/>
+		<table tableName="t_par_client_source" domainObjectName="ParClientSource" alias="temp_par_client_source"/>
+		<table tableName="t_par_company_size" domainObjectName="ParCompanySize" alias="temp_par_company_size"/>
+		<table tableName="t_par_cost_type" domainObjectName="ParCostType" alias="temp_par_cost_type"/>
+		<table tableName="t_par_credit_grade" domainObjectName="ParCreditGrade" alias="temp_par_credit_grade"/>
+		<table tableName="t_par_deliver_type" domainObjectName="ParDeliverType" alias="temp_par_deliver_type"/>
+		<table tableName="t_par_industry" domainObjectName="ParIndustry" alias="temp_par_industry"/>
+		<table tableName="t_par_payable_type" domainObjectName="ParPayableType" alias="temp_par_payable_type"/>
+		<table tableName="t_par_payment_type" domainObjectName="ParPaymentType" alias="temp_par_payment_type"/>
+		<table tableName="t_par_plan_type" domainObjectName="ParPlanType" alias="temp_par_plan_type"/>
+		<table tableName="t_par_purchase_type" domainObjectName="ParPurchaseType" alias="temp_par_purchase_type"/>
+		<table tableName="t_par_quoted_price_type" domainObjectName="ParQuotedPriceType" alias="temp_par_quoted_price_type"/>
+		<table tableName="t_par_receivable_type" domainObjectName="ParReceivableType" alias="temp_par_receivable_type"/>
+		<table tableName="t_par_receivables_type" domainObjectName="ParReceivablesType" alias="temp_par_receivables_type"/>
+		<table tableName="t_par_return_reason" domainObjectName="ParReturnReason" alias="temp_par_return_reason"/>
+		<table tableName="t_par_returned_purchase_type" domainObjectName="ParReturnedPurchaseType" alias="temp_par_returned_purchase_type"/>
+		<table tableName="t_par_sell_return_reason_id" domainObjectName="ParSellReturn_reasonId" alias="temp_par_sell_return_reason_id"/>
+		<table tableName="t_par_sell_return_type" domainObjectName="ParSellReturnType" alias="temp_par_sell_return_type"/>
+		<table tableName="t_par_sell_type" domainObjectName="ParSellType" alias="temp_par_sell_type"/>
+		<table tableName="t_par_suppliers_grade" domainObjectName="ParSuppliersGrade" alias="temp_par_suppliers_grade"/>
+		<table tableName="t_par_suppliers_industry" domainObjectName="ParSuppliersIndustry" alias="temp_par_suppliers_industry"/>
+		<table tableName="t_par_suppliers_nature" domainObjectName="ParSuppliersNature" alias="temp_par_suppliers_nature"/>
+		<table tableName="t_par_suppliers_size" domainObjectName="ParSuppliersSize" alias="temp_par_suppliers_size"/>
+		<table tableName="t_par_suppliers_source" domainObjectName="ParSuppliersSource" alias="temp_par_suppliers_source"/>
+		<table tableName="t_par_suppliers_type" domainObjectName="ParSuppliersType" alias="temp_par_suppliers_type"/>
+		
 		
 	</context>
 </generatorConfiguration>  
