@@ -44,7 +44,7 @@
 
 		<!-- 客户级别 -->
 		<table tableName="t_par_client_level" domainObjectName="ParClientLevel" alias="temp_par_client_level"/>
-		<!-- 客户来源-->
+		<!-- 客户来源 -->
 		<table tableName="t_par_client_source" domainObjectName="ParClientSource" alias="temp_par_client_source"/>
 		<!-- 公司规模 -->
 		<table tableName="t_par_company_size" domainObjectName="ParCompanySize" alias="temp_par_company_size"/>
@@ -54,52 +54,56 @@
 		<table tableName="t_par_credit_grade" domainObjectName="ParCreditGrade" alias="temp_par_credit_grade"/>
 		<!-- 交货方式 -->
 		<table tableName="t_par_deliver_type" domainObjectName="ParDeliverType" alias="temp_par_deliver_type"/>
-		<!-- 行业 -->
-		<table tableName="t_par_industry" domainObjectName="ParIndustry" alias="temp_par_industry"/>
-		<!-- 应付类型-->
+		<!-- 应付类型 -->
 		<table tableName="t_par_payable_type" domainObjectName="ParPayableType" alias="temp_par_payable_type"/>
-		<!-- 支付方式-->
+		<!-- 支付方式 -->
 		<table tableName="t_par_payment_type" domainObjectName="ParPaymentType" alias="temp_par_payment_type"/>
-		<!-- 计划类型--本项目不需要-->
-		<table tableName="t_par_plan_type" domainObjectName="ParPlanType" alias="temp_par_plan_type"/>
-		<!-- 采购类型-->
+		<!-- 采购类型 -->
 		<table tableName="t_par_purchase_type" domainObjectName="ParPurchaseType" alias="temp_par_purchase_type"/>
-		<!-- 报价类型-->
+		<!-- 报价类型 -->
 		<table tableName="t_par_quoted_price_type" domainObjectName="ParQuotedPriceType" alias="temp_par_quoted_price_type"/>
-		<!-- 报价类型-->
+		<!-- 报价类型 -->
 		<table tableName="t_par_receivable_type" domainObjectName="ParReceivableType" alias="temp_par_receivable_type"/>
-		<!-- 应收类型-->
+		<!-- 应收类型 -->
 		<table tableName="t_par_receivables_type" domainObjectName="ParReceivablesType" alias="temp_par_receivables_type"/>
-		<!-- 采购退货原因-->
+		<!-- 采购退货原因 -->
 		<table tableName="t_par_return_reason" domainObjectName="ParReturnReason" alias="temp_par_return_reason"/>
-		<!-- 采购退货方式-->
+		<!-- 采购退货方式 -->
 		<table tableName="t_par_returned_purchase_type" domainObjectName="ParReturnedPurchaseType" alias="temp_par_returned_purchase_type"/>
-		<!-- 销售退货原因-命名方式有问题多了个ID-->
-		<table tableName="t_par_sell_return_reason_id" domainObjectName="ParSellReturn_reasonId" alias="temp_par_sell_return_reason_id"/>
-		<!-- 销售退货方式-->
+		<!-- 销售退货方式 -->
 		<table tableName="t_par_sell_return_type" domainObjectName="ParSellReturnType" alias="temp_par_sell_return_type"/>
-		<!-- 销售类型-->
+		<!-- 销售类型 -->
 		<table tableName="t_par_sell_type" domainObjectName="ParSellType" alias="temp_par_sell_type"/>
-		<!-- 供应商级别-->
+		<!-- 供应商级别 -->
 		<table tableName="t_par_suppliers_grade" domainObjectName="ParSuppliersGrade" alias="temp_par_suppliers_grade"/>
-		<!-- 供应商行业-多余了在公共下拉项就有-->
-		<table tableName="t_par_suppliers_industry" domainObjectName="ParSuppliersIndustry" alias="temp_par_suppliers_industry"/>
-		<!-- 供应商性质-多余了在公共下拉项就有-->
-		<table tableName="t_par_suppliers_nature" domainObjectName="ParSuppliersNature" alias="temp_par_suppliers_nature"/>
-		<!-- 供应商规模-多余了在公共下拉项就有-->
-		<table tableName="t_par_suppliers_size" domainObjectName="ParSuppliersSize" alias="temp_par_suppliers_size"/>
 		<!-- 供应商来源  -->
 		<table tableName="t_par_suppliers_source" domainObjectName="ParSuppliersSource" alias="temp_par_suppliers_source"/>
 		<!-- 供应商类型 -->
 		<table tableName="t_par_suppliers_type" domainObjectName="ParSuppliersType" alias="temp_par_suppliers_type"/>
- 		<!-- 客户档案类型  -->
- 		<table tableName="t_par_client_type" domainObjectName="ParClientType" alias="temp_par_client_type"/>
+		<!-- 行业- -->
+		<table tableName="t_par_suppliers_industry" domainObjectName="ParSuppliersIndustry" alias="temp_par_suppliers_industry"/>
+		<!-- 公司性质- -->
+		<table tableName="t_par_suppliers_nature" domainObjectName="ParSuppliersNature" alias="temp_par_suppliers_nature"/>
  		<!--供应商档案 -->
 		<table tableName="t_suppliers" domainObjectName="Suppliers" alias="temp_suppliers"/>
 		<!--客户档案 -->
 		<table tableName="t_basis_client" domainObjectName="BasisClient" alias="temp_basis_client"/>
 		<!--货品档案 -->
 		<table tableName="t_goods_list" domainObjectName="GoodsList" alias="temp_goods_list"/>
+		
+		<!--新增加-->
+		<!-- 销售退货原因-->
+		<table tableName="t_par_sell_return_reason" domainObjectName="ParSellReturnReason" alias="temp_par_sell_return_reason"/>
+		<!-- 客户档案类型  -->
+ 		<table tableName="t_par_client_type" domainObjectName="ParClientType" alias="temp_par_client_type"/>
+		
+		<!--删除了-->
+		<!-- 计划类型--本项目不需要 -->
+		<table tableName="t_par_plan_type" domainObjectName="ParPlanType" alias="temp_par_plan_type"/>
+		<!-- 供应商规模-多余了在公共下拉项就有 -->
+		<table tableName="t_par_suppliers_size" domainObjectName="ParSuppliersSize" alias="temp_par_suppliers_size"/>
+		<!-- 行业 多余了已经用t_par_suppliers_industry -->
+		<table tableName="t_par_industry" domainObjectName="ParIndustry" alias="temp_par_industry"/>
 		
 	</context>
 </generatorConfiguration>  
