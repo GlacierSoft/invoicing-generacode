@@ -103,12 +103,16 @@
 		<!-- 客户来源 -->
 		<table tableName="t_par_client_source" domainObjectName="ParClientSource" alias="temp_par_client_source"/>
 		
+		<!-- 仓库货品分类 -->
+		<table tableName="t_par_war_goods_type" domainObjectName="ParWarGoodsType" alias="temp_par_war_goods_type"/>
+		
  		<!--供应商档案 -->
 		<table tableName="t_suppliers" domainObjectName="Suppliers" alias="temp_suppliers"/>
 		<!--客户档案 -->
 		<table tableName="t_basis_client" domainObjectName="BasisClient" alias="temp_basis_client"/>
 		<!--货品档案 -->
 		<table tableName="t_goods_list" domainObjectName="GoodsList" alias="temp_goods_list"/>
-		
+		<!--仓库档案-->
+		<table tableName="t_warehouse" domainObjectName="Warehouse" alias="temp_warehouse"/>
 	</context>
 </generatorConfiguration>  
