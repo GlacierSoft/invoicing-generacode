@@ -105,6 +105,8 @@
 		
 		<!-- 仓库货品分类 -->
 		<table tableName="t_par_war_goods_type" domainObjectName="ParWarGoodsType" alias="temp_par_war_goods_type"/>
+		<!-- 仓库货品分类和仓库的中间表 -->
+		<table tableName="t_par_war_goods_classify" domainObjectName="ParWarGoodsClassify" alias="temp_par_war_goods_classify"/>
 		
  		<!--供应商档案 -->
 		<table tableName="t_suppliers" domainObjectName="Suppliers" alias="temp_suppliers"/>
